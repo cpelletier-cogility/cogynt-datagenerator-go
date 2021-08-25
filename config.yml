@@ -1,0 +1,4 @@
+kafka:
+  bootstrap-servers: "cyn-kafka.cogilitycloud.com:31092,cyn-kafka.cogilitycloud.com:31094,cyn-kafka.cogilitycloud.com:31096"
+  producer:
+    client-id: "cogynt-datagenerator-go"
