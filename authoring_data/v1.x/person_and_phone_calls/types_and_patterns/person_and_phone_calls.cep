@@ -1,0 +1,1434 @@
+{
+  "version": 1.0,
+  "templateTypes": [
+    {
+      "viewbox": {},
+      "tags": [],
+      "riskAnalysisEnabled": false,
+      "provenance": false,
+      "outcomes": [
+        {
+          "uid": "d051ec41-585b-4af2-8ac0-713d72042183",
+          "type": "outcome/publish",
+          "sources": [
+            {
+              "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+              "type": "assertion/occurrence"
+            }
+          ],
+          "riskModel": "bayesian",
+          "occurrenceType": "5503f972-fc7e-11eb-88d1-c67d0f1a340b",
+          "dataMap": [
+            {
+              "toField": "city",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "city",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "country",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "country",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "email",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "email",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "first_name",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "first_name",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "gender",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "gender",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "id",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "last_name",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "last_name",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "lat",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "lat",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "loc",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "loc",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "lon",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "lon",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "name",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "name",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "phone_number",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "phone_number",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "postalcode",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "postalcode",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "state",
+              "fromField": null,
+              "ast": {
+                "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                "operation": "getField",
+                "fromField": "state",
+                "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "$matches",
+              "fromField": null,
+              "ast": {
+                "uid": "6e993c08-e55d-4fb7-8691-814713142ad5",
+                "params": [
+                  {
+                    "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+                    "operation": "getField",
+                    "fromField": "first_name",
+                    "aid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+                  }
+                ],
+                "operation": "lexMatch",
+                "lexnodeid": "781534ca-6652-4b2a-9539-3ed75a8f6826"
+              },
+              "assertion": null
+            }
+          ]
+        }
+      ],
+      "name": "Filtered Persons",
+      "id": "348c48fc-fc7e-11eb-971d-c67d0f1a340b",
+      "groups": [],
+      "design": {
+        "version": "1.1",
+        "outcomes": [
+          {
+            "refId": "d051ec41-585b-4af2-8ac0-713d72042183",
+            "mapSize": {
+              "w": 218,
+              "h": 465
+            },
+            "mapLoc": {
+              "y": 30,
+              "x": 870
+            },
+            "loc": {
+              "y": 312,
+              "x": 1101
+            }
+          }
+        ],
+        "operators": [],
+        "groups": [],
+        "functions": [
+          {
+            "refId": "6e993c08-e55d-4fb7-8691-814713142ad5",
+            "mapSize": {
+              "w": 292,
+              "h": 96
+            },
+            "mapLoc": {
+              "y": 0,
+              "x": 330
+            }
+          }
+        ],
+        "flags": {},
+        "dataMapLinks": [
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:city|5503f972-fc7e-11eb-88d1-c67d0f1a340b:city"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:country|5503f972-fc7e-11eb-88d1-c67d0f1a340b:country"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:email|5503f972-fc7e-11eb-88d1-c67d0f1a340b:email"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:first_name|5503f972-fc7e-11eb-88d1-c67d0f1a340b:first_name"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:gender|5503f972-fc7e-11eb-88d1-c67d0f1a340b:gender"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:id|5503f972-fc7e-11eb-88d1-c67d0f1a340b:id"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:last_name|5503f972-fc7e-11eb-88d1-c67d0f1a340b:last_name"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:lat|5503f972-fc7e-11eb-88d1-c67d0f1a340b:lat"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:loc|5503f972-fc7e-11eb-88d1-c67d0f1a340b:loc"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:lon|5503f972-fc7e-11eb-88d1-c67d0f1a340b:lon"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:name|5503f972-fc7e-11eb-88d1-c67d0f1a340b:name"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:phone_number|5503f972-fc7e-11eb-88d1-c67d0f1a340b:phone_number"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:postalcode|5503f972-fc7e-11eb-88d1-c67d0f1a340b:postalcode"
+          },
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62:state|5503f972-fc7e-11eb-88d1-c67d0f1a340b:state"
+          }
+        ],
+        "constraints": [
+          {
+            "refId": "6243020a-045d-4143-9d8a-63b8bf40447f"
+          }
+        ],
+        "constants": [],
+        "assertions": [
+          {
+            "refId": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+            "mapSizes": {
+              "d051ec41-585b-4af2-8ac0-713d72042183": {
+                "w": 218,
+                "h": 440
+              }
+            },
+            "mapLocs": {
+              "d051ec41-585b-4af2-8ac0-713d72042183": {
+                "y": 60,
+                "x": 30
+              }
+            },
+            "loc": {
+              "y": 50,
+              "x": 1087
+            }
+          }
+        ]
+      },
+      "description": "Persons Filtered by Lexicons",
+      "constraints": [
+        {
+          "uid": "6243020a-045d-4143-9d8a-63b8bf40447f",
+          "type": "constraint/par/uuid",
+          "toField": "id",
+          "to": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+          "fromField": "id",
+          "from": "794bdc0d-188f-4c6f-b8f6-6657990e8f62"
+        }
+      ],
+      "assertions": [
+        {
+          "uid": "794bdc0d-188f-4c6f-b8f6-6657990e8f62",
+          "type": "assertion/occurrence",
+          "tag": "",
+          "occurrenceType": "fbe94fae-fc7d-11eb-acd7-c67d0f1a340b",
+          "min": 1,
+          "max": null
+        }
+      ]
+    },
+    {
+      "viewbox": {},
+      "tags": [],
+      "riskAnalysisEnabled": false,
+      "provenance": false,
+      "outcomes": [
+        {
+          "uid": "adbddde0-5b5b-4170-84d5-e071710da84d",
+          "type": "outcome/publish",
+          "sources": [
+            {
+              "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+              "type": "assertion/occurrence"
+            }
+          ],
+          "riskModel": "bayesian",
+          "occurrenceType": "e7c5f4c6-faea-11eb-8962-e6abe509484a",
+          "dataMap": [
+            {
+              "toField": "id",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "$matches",
+              "fromField": null,
+              "ast": {
+                "uid": "3e76c194-5928-4c4c-b678-800249d5ecc3",
+                "params": [
+                  {
+                    "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                    "operation": "getField",
+                    "fromField": "first_name",
+                    "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+                  }
+                ],
+                "operation": "lexMatch",
+                "lexnodeid": "781534ca-6652-4b2a-9539-3ed75a8f6826"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "city",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "city",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "country",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "country",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "email",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "email",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "gender",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "gender",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "first_name",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "first_name",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "last_name",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "last_name",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "lat",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "lat",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "loc",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "loc",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "lon",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "lon",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "name",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "name",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "phone_number",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "phone_number",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "postalcode",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "postalcode",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "state",
+              "fromField": null,
+              "ast": {
+                "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+                "operation": "getField",
+                "fromField": "state",
+                "aid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+              },
+              "assertion": null
+            }
+          ]
+        }
+      ],
+      "name": "Person Entity",
+      "id": "65bbdece-faee-11eb-9d9c-e6abe509484a",
+      "groups": [],
+      "design": {
+        "version": "1.1",
+        "outcomes": [
+          {
+            "refId": "adbddde0-5b5b-4170-84d5-e071710da84d",
+            "mapSize": {
+              "w": 218,
+              "h": 465
+            },
+            "mapLoc": {
+              "y": 30,
+              "x": 870
+            },
+            "loc": {
+              "y": 478,
+              "x": 810
+            }
+          }
+        ],
+        "operators": [],
+        "groups": [],
+        "functions": [
+          {
+            "refId": "3e76c194-5928-4c4c-b678-800249d5ecc3",
+            "mapSize": {
+              "w": 292,
+              "h": 90
+            },
+            "mapLoc": {
+              "y": 30,
+              "x": 450
+            }
+          }
+        ],
+        "flags": {},
+        "dataMapLinks": [
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:city|e7c5f4c6-faea-11eb-8962-e6abe509484a:city"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:country|e7c5f4c6-faea-11eb-8962-e6abe509484a:country"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:email|e7c5f4c6-faea-11eb-8962-e6abe509484a:email"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:first_name|e7c5f4c6-faea-11eb-8962-e6abe509484a:first_name"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:gender|e7c5f4c6-faea-11eb-8962-e6abe509484a:gender"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:id|e7c5f4c6-faea-11eb-8962-e6abe509484a:id"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:last_name|e7c5f4c6-faea-11eb-8962-e6abe509484a:last_name"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:lat|e7c5f4c6-faea-11eb-8962-e6abe509484a:lat"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:loc|e7c5f4c6-faea-11eb-8962-e6abe509484a:loc"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:lon|e7c5f4c6-faea-11eb-8962-e6abe509484a:lon"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:name|e7c5f4c6-faea-11eb-8962-e6abe509484a:name"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:phone_number|e7c5f4c6-faea-11eb-8962-e6abe509484a:phone_number"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:postalcode|e7c5f4c6-faea-11eb-8962-e6abe509484a:postalcode"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:state|e7c5f4c6-faea-11eb-8962-e6abe509484a:state"
+          },
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c:first_name|3e76c194-5928-4c4c-b678-800249d5ecc3:0"
+          },
+          {
+            "refId": "3e76c194-5928-4c4c-b678-800249d5ecc3:result|e7c5f4c6-faea-11eb-8962-e6abe509484a:$matches"
+          }
+        ],
+        "constraints": [
+          {
+            "refId": "2686a277-e864-4849-9b5a-e17a3f9546bb"
+          }
+        ],
+        "constants": [],
+        "assertions": [
+          {
+            "refId": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+            "mapSizes": {
+              "adbddde0-5b5b-4170-84d5-e071710da84d": {
+                "w": 218,
+                "h": 415
+              }
+            },
+            "mapLocs": {
+              "adbddde0-5b5b-4170-84d5-e071710da84d": {
+                "y": 90,
+                "x": 150
+              }
+            },
+            "loc": {
+              "y": 259,
+              "x": 769
+            }
+          }
+        ]
+      },
+      "description": "person entity",
+      "constraints": [
+        {
+          "uid": "2686a277-e864-4849-9b5a-e17a3f9546bb",
+          "type": "constraint/par/uuid",
+          "toField": "id",
+          "to": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+          "fromField": "id",
+          "from": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c"
+        }
+      ],
+      "assertions": [
+        {
+          "uid": "f4e9ac56-1a96-44cf-8f9b-151044cbc37c",
+          "type": "assertion/occurrence",
+          "tag": "",
+          "occurrenceType": "a0b1e0b0-f62e-11eb-bb4a-d63d577c3cda",
+          "min": 1,
+          "max": null
+        }
+      ]
+    },
+    {
+      "viewbox": {},
+      "tags": [],
+      "riskAnalysisEnabled": false,
+      "provenance": false,
+      "outcomes": [
+        {
+          "uid": "d612588a-74d7-46e7-bb0d-03fb80458835",
+          "type": "outcome/publish",
+          "sources": [
+            {
+              "uid": "cf588131-7c68-4a74-93ca-d1697a939f9f",
+              "type": "group"
+            }
+          ],
+          "riskModel": "bayesian",
+          "risk": [
+            [
+              "573ce135-111b-4eea-a140-c4e5b2de84ec",
+              "977e1a93-7418-419c-bd3b-09356e7a76fd",
+              "191168c7-4b91-40d4-907c-00b2e89e23b1",
+              "probability"
+            ],
+            [
+              "F",
+              "F",
+              "F",
+              0
+            ],
+            [
+              "F",
+              "F",
+              "T",
+              0.4
+            ],
+            [
+              "F",
+              "T",
+              "F",
+              0.5
+            ],
+            [
+              "F",
+              "T",
+              "T",
+              0.6
+            ],
+            [
+              "T",
+              "F",
+              "F",
+              0.7
+            ],
+            [
+              "T",
+              "F",
+              "T",
+              0.8
+            ],
+            [
+              "T",
+              "T",
+              "F",
+              0.9
+            ],
+            [
+              "T",
+              "T",
+              "T",
+              1
+            ]
+          ],
+          "occurrenceType": "bfafd55a-faeb-11eb-aae6-e6abe509484a",
+          "dataMap": [
+            {
+              "toField": "duration",
+              "fromField": null,
+              "ast": {
+                "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+                "operation": "getField",
+                "fromField": "duration",
+                "aid": "191168c7-4b91-40d4-907c-00b2e89e23b1"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_id",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "to_id",
+              "fromField": null,
+              "ast": {
+                "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "call_id",
+              "fromField": null,
+              "ast": {
+                "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "191168c7-4b91-40d4-907c-00b2e89e23b1"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "occurred_at",
+              "fromField": null,
+              "ast": {
+                "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+                "operation": "getField",
+                "fromField": "occurred",
+                "aid": "191168c7-4b91-40d4-907c-00b2e89e23b1"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_name",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "name",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_number",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "phone_number",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "to_name",
+              "fromField": null,
+              "ast": {
+                "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+                "operation": "getField",
+                "fromField": "name",
+                "aid": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "to_number",
+              "fromField": null,
+              "ast": {
+                "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+                "operation": "getField",
+                "fromField": "phone_number",
+                "aid": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+              },
+              "assertion": null
+            }
+          ]
+        }
+      ],
+      "name": "Phone Call Made",
+      "id": "a3f2590c-faee-11eb-973d-e6abe509484a",
+      "groups": [
+        {
+          "uid": "cf588131-7c68-4a74-93ca-d1697a939f9f",
+          "color": 0,
+          "assertions": [
+            {
+              "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+              "type": "assertion/occurrence"
+            },
+            {
+              "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+              "type": "assertion/occurrence"
+            },
+            {
+              "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+              "type": "assertion/occurrence"
+            }
+          ]
+        }
+      ],
+      "design": {
+        "version": "1.1",
+        "outcomes": [
+          {
+            "refId": "d612588a-74d7-46e7-bb0d-03fb80458835",
+            "mapSize": {
+              "w": 218,
+              "h": 315
+            },
+            "mapLoc": {
+              "y": 60,
+              "x": 780
+            },
+            "loc": {
+              "y": -71.42857142857133,
+              "x": -1408.5714285714284
+            }
+          }
+        ],
+        "operators": [],
+        "groups": [
+          {
+            "refId": "cf588131-7c68-4a74-93ca-d1697a939f9f",
+            "color": "#207299"
+          }
+        ],
+        "functions": [],
+        "flags": {},
+        "dataMapLinks": [
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:duration|bfafd55a-faeb-11eb-aae6-e6abe509484a:duration"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:id|bfafd55a-faeb-11eb-aae6-e6abe509484a:from_id"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:name|bfafd55a-faeb-11eb-aae6-e6abe509484a:from_name"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:phone_number|bfafd55a-faeb-11eb-aae6-e6abe509484a:from_number"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:occurred|bfafd55a-faeb-11eb-aae6-e6abe509484a:occured_at"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:id|bfafd55a-faeb-11eb-aae6-e6abe509484a:to_id"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:name|bfafd55a-faeb-11eb-aae6-e6abe509484a:to_name"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:phone_number|bfafd55a-faeb-11eb-aae6-e6abe509484a:to_number"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:id|bfafd55a-faeb-11eb-aae6-e6abe509484a:call_id"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:occurred|bfafd55a-faeb-11eb-aae6-e6abe509484a:occurred_at"
+          }
+        ],
+        "constraints": [
+          {
+            "refId": "751f5ced-1c9a-465c-b9b4-697f4600aa09"
+          },
+          {
+            "refId": "48223d2f-11d4-4537-b632-b8ebdf8c9322"
+          },
+          {
+            "refId": "5870516c-f301-4073-a4de-0c4ae35d8746"
+          },
+          {
+            "refId": "329d8538-1e31-4b0b-81dd-ff2913985cee"
+          }
+        ],
+        "constants": [],
+        "assertions": [
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+            "mapSizes": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "w": 218,
+                "h": 465
+              }
+            },
+            "mapLocs": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "y": -360,
+                "x": 330
+              }
+            },
+            "loc": {
+              "y": -355.82086167800446,
+              "x": -2077.2040816326535
+            }
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+            "mapSizes": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "w": 218,
+                "h": 465
+              }
+            },
+            "mapLocs": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "y": 330,
+                "x": 330
+              }
+            },
+            "loc": {
+              "y": -352.6893424036281,
+              "x": -898.956916099773
+            }
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+            "mapSizes": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "w": 218,
+                "h": 190
+              }
+            },
+            "mapLocs": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "y": 120,
+                "x": 330
+              }
+            },
+            "loc": {
+              "y": -349.4784580498865,
+              "x": -1501.72335600907
+            }
+          }
+        ]
+      },
+      "description": "When a person calls another person",
+      "constraints": [
+        {
+          "uid": "751f5ced-1c9a-465c-b9b4-697f4600aa09",
+          "type": "constraint/par/uuid",
+          "toField": "id",
+          "to": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+          "fromField": "id",
+          "from": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+        },
+        {
+          "uid": "48223d2f-11d4-4537-b632-b8ebdf8c9322",
+          "type": "constraint/par/uuid",
+          "toField": "id",
+          "to": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+          "fromField": "id",
+          "from": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+        },
+        {
+          "uid": "5870516c-f301-4073-a4de-0c4ae35d8746",
+          "type": "constraint/eq/string",
+          "toField": "from_number",
+          "to": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+          "fromField": "phone_number",
+          "from": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+        },
+        {
+          "uid": "329d8538-1e31-4b0b-81dd-ff2913985cee",
+          "type": "constraint/eq/string",
+          "toField": "to_number",
+          "to": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+          "fromField": "phone_number",
+          "from": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+        }
+      ],
+      "assertions": [
+        {
+          "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+          "type": "assertion/occurrence",
+          "tag": "Caller",
+          "occurrenceType": "e7c5f4c6-faea-11eb-8962-e6abe509484a",
+          "min": 1,
+          "max": null
+        },
+        {
+          "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+          "type": "assertion/occurrence",
+          "tag": "Receiver",
+          "occurrenceType": "e7c5f4c6-faea-11eb-8962-e6abe509484a",
+          "min": 1,
+          "max": null
+        },
+        {
+          "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+          "type": "assertion/occurrence",
+          "tag": "PC",
+          "occurrenceType": "a9a11290-f62e-11eb-8d1d-d63d577c3cda",
+          "min": 1,
+          "max": null
+        }
+      ]
+    },
+    {
+      "viewbox": {},
+      "tags": [],
+      "riskAnalysisEnabled": false,
+      "provenance": false,
+      "outcomes": [
+        {
+          "uid": "d612588a-74d7-46e7-bb0d-03fb80458835",
+          "type": "outcome/publish",
+          "sources": [
+            {
+              "uid": "cf588131-7c68-4a74-93ca-d1697a939f9f",
+              "type": "group"
+            }
+          ],
+          "riskModel": "bayesian",
+          "occurrenceType": "73b60554-fafd-11eb-8bc9-e6abe509484a",
+          "dataMap": [
+            {
+              "toField": "duration",
+              "fromField": null,
+              "ast": {
+                "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+                "operation": "getField",
+                "fromField": "duration",
+                "aid": "191168c7-4b91-40d4-907c-00b2e89e23b1"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "occured_at",
+              "fromField": null,
+              "ast": {
+                "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+                "operation": "getField",
+                "fromField": "occurred",
+                "aid": "191168c7-4b91-40d4-907c-00b2e89e23b1"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_id",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "to_id",
+              "fromField": null,
+              "ast": {
+                "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "call_id",
+              "fromField": null,
+              "ast": {
+                "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "191168c7-4b91-40d4-907c-00b2e89e23b1"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_id",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "id",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_name",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "name",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "from_number",
+              "fromField": null,
+              "ast": {
+                "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+                "operation": "getField",
+                "fromField": "phone_number",
+                "aid": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "to_name",
+              "fromField": null,
+              "ast": {
+                "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+                "operation": "getField",
+                "fromField": "name",
+                "aid": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+              },
+              "assertion": null
+            },
+            {
+              "toField": "to_number",
+              "fromField": null,
+              "ast": {
+                "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+                "operation": "getField",
+                "fromField": "phone_number",
+                "aid": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+              },
+              "assertion": null
+            }
+          ]
+        }
+      ],
+      "name": "Random Confidence",
+      "id": "f53cc6ae-fafc-11eb-8fe7-e6abe509484a",
+      "groups": [
+        {
+          "uid": "cf588131-7c68-4a74-93ca-d1697a939f9f",
+          "color": 0,
+          "assertions": [
+            {
+              "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+              "type": "assertion/occurrence"
+            },
+            {
+              "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+              "type": "assertion/occurrence"
+            },
+            {
+              "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+              "type": "assertion/occurrence"
+            }
+          ]
+        }
+      ],
+      "design": {
+        "version": "1.1",
+        "outcomes": [
+          {
+            "refId": "d612588a-74d7-46e7-bb0d-03fb80458835",
+            "mapSize": {
+              "w": 218,
+              "h": 315
+            },
+            "mapLoc": {
+              "y": 150,
+              "x": 1170
+            },
+            "loc": {
+              "y": -71.42857142857133,
+              "x": -1408.5714285714284
+            }
+          }
+        ],
+        "operators": [],
+        "groups": [
+          {
+            "refId": "cf588131-7c68-4a74-93ca-d1697a939f9f",
+            "color": "#207299"
+          }
+        ],
+        "functions": [],
+        "flags": {},
+        "dataMapLinks": [
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:duration|bfafd55a-faeb-11eb-aae6-e6abe509484a:duration"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:id|bfafd55a-faeb-11eb-aae6-e6abe509484a:from_id"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:name|bfafd55a-faeb-11eb-aae6-e6abe509484a:from_name"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:phone_number|bfafd55a-faeb-11eb-aae6-e6abe509484a:from_number"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:occurred|bfafd55a-faeb-11eb-aae6-e6abe509484a:occured_at"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:id|bfafd55a-faeb-11eb-aae6-e6abe509484a:to_id"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:name|bfafd55a-faeb-11eb-aae6-e6abe509484a:to_name"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:phone_number|bfafd55a-faeb-11eb-aae6-e6abe509484a:to_number"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:id|bfafd55a-faeb-11eb-aae6-e6abe509484a:call_id"
+          },
+          {
+            "refId": "20493f99-0a1e-4494-8bdb-861f71cc88ce:result|73b60554-fafd-11eb-8bc9-e6abe509484a:_confidence"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:id|73b60554-fafd-11eb-8bc9-e6abe509484a:call_id"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:duration|73b60554-fafd-11eb-8bc9-e6abe509484a:duration"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:id|73b60554-fafd-11eb-8bc9-e6abe509484a:from_id"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:name|73b60554-fafd-11eb-8bc9-e6abe509484a:from_name"
+          },
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec:phone_number|73b60554-fafd-11eb-8bc9-e6abe509484a:from_number"
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1:occurred|73b60554-fafd-11eb-8bc9-e6abe509484a:occured_at"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:id|73b60554-fafd-11eb-8bc9-e6abe509484a:to_id"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:name|73b60554-fafd-11eb-8bc9-e6abe509484a:to_name"
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd:phone_number|73b60554-fafd-11eb-8bc9-e6abe509484a:to_number"
+          }
+        ],
+        "constraints": [
+          {
+            "refId": "751f5ced-1c9a-465c-b9b4-697f4600aa09"
+          },
+          {
+            "refId": "48223d2f-11d4-4537-b632-b8ebdf8c9322"
+          },
+          {
+            "refId": "5870516c-f301-4073-a4de-0c4ae35d8746"
+          },
+          {
+            "refId": "329d8538-1e31-4b0b-81dd-ff2913985cee"
+          }
+        ],
+        "constants": [],
+        "assertions": [
+          {
+            "refId": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+            "mapSizes": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "w": 218,
+                "h": 465
+              }
+            },
+            "mapLocs": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "y": -210,
+                "x": 540
+              }
+            },
+            "loc": {
+              "y": -427.4761904761905,
+              "x": -2033.6666666666667
+            }
+          },
+          {
+            "refId": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+            "mapSizes": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "w": 218,
+                "h": 465
+              }
+            },
+            "mapLocs": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "y": 450,
+                "x": 510
+              }
+            },
+            "loc": {
+              "y": -457.90476190476187,
+              "x": -992.3809523809523
+            }
+          },
+          {
+            "refId": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+            "mapSizes": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "w": 218,
+                "h": 190
+              }
+            },
+            "mapLocs": {
+              "d612588a-74d7-46e7-bb0d-03fb80458835": {
+                "y": 240,
+                "x": 510
+              }
+            },
+            "loc": {
+              "y": -367.61904761904754,
+              "x": -1440.9523809523805
+            }
+          }
+        ]
+      },
+      "description": "When a person calls another person",
+      "constraints": [
+        {
+          "uid": "751f5ced-1c9a-465c-b9b4-697f4600aa09",
+          "type": "constraint/par/uuid",
+          "toField": "id",
+          "to": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+          "fromField": "id",
+          "from": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+        },
+        {
+          "uid": "48223d2f-11d4-4537-b632-b8ebdf8c9322",
+          "type": "constraint/par/uuid",
+          "toField": "id",
+          "to": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+          "fromField": "id",
+          "from": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+        },
+        {
+          "uid": "5870516c-f301-4073-a4de-0c4ae35d8746",
+          "type": "constraint/eq/string",
+          "toField": "from_number",
+          "to": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+          "fromField": "phone_number",
+          "from": "573ce135-111b-4eea-a140-c4e5b2de84ec"
+        },
+        {
+          "uid": "329d8538-1e31-4b0b-81dd-ff2913985cee",
+          "type": "constraint/eq/string",
+          "toField": "to_number",
+          "to": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+          "fromField": "phone_number",
+          "from": "977e1a93-7418-419c-bd3b-09356e7a76fd"
+        }
+      ],
+      "assertions": [
+        {
+          "uid": "573ce135-111b-4eea-a140-c4e5b2de84ec",
+          "type": "assertion/occurrence",
+          "tag": "Caller",
+          "occurrenceType": "e7c5f4c6-faea-11eb-8962-e6abe509484a",
+          "min": 1,
+          "max": null
+        },
+        {
+          "uid": "977e1a93-7418-419c-bd3b-09356e7a76fd",
+          "type": "assertion/occurrence",
+          "tag": "Receiver",
+          "occurrenceType": "e7c5f4c6-faea-11eb-8962-e6abe509484a",
+          "min": 1,
+          "max": null
+        },
+        {
+          "uid": "191168c7-4b91-40d4-907c-00b2e89e23b1",
+          "type": "assertion/occurrence",
+          "tag": "PC",
+          "occurrenceType": "a9a11290-f62e-11eb-8d1d-d63d577c3cda",
+          "min": 1,
+          "max": null
+        }
+      ]
+    }
+  ],
+  "tags": []
+}
