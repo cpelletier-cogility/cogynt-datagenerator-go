@@ -4,6 +4,7 @@ import (
 	"cogynt-datagenerator-go/datagenerator/jobgenerator"
 	"cogynt-datagenerator-go/datagenerator/persongenerator"
 	"cogynt-datagenerator-go/datagenerator/phonecallgenerator"
+	"cogynt-datagenerator-go/datagenerator/random"
 	"fmt"
 
 	"github.com/AlecAivazis/survey/v2"
@@ -14,7 +15,7 @@ var dataTypes []string = []string{"jobs", "person", "phone_call"}
 type DataMap struct {
 	Person    []persongenerator.PersonInfo
 	PhoneCall []phonecallgenerator.PhoneCall
-	Job       []jobgenerator.JobInfo
+	Job       []random.JobInfo
 }
 
 func GenerateData() {
@@ -22,7 +23,7 @@ func GenerateData() {
 	dataTypePrompt := &survey.MultiSelect{
 		Message: "Which event types would you like to create data for?",
 		Options: dataTypes,
-		Default: []string{"person"},
+		Default: []string{},
 	}
 	survey.AskOne(dataTypePrompt, &dataTypesSelections)
 
@@ -38,8 +39,16 @@ func GenerateData() {
 		fmt.Printf("%+v\n", dataType)
 		switch dataType {
 		case "jobs":
-			fmt.Println("Jobs data creation has not been implemented yet")
+			dataMap.Job = jobgenerator.GenerateJobData(outputType)
 		case "person":
+			// if dataMap.Job != nil {
+			// 	employPeople := ""
+			// 	prompt := &survey.Select{
+			// 			Message: "Choose a color:",
+			// 			Options: []string{"red", "blue", "green"},
+			// 	}
+			// 	survey.AskOne(prompt, &employPeople)
+			// }
 			people := persongenerator.GeneratePersonData(outputType)
 			dataMap.Person = people
 		case "phone_call":
