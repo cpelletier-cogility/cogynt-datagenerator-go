@@ -5,7 +5,6 @@ import (
 	"cogynt-datagenerator-go/datagenerator/persongenerator"
 	"cogynt-datagenerator-go/datagenerator/phonecallgenerator"
 	"cogynt-datagenerator-go/datagenerator/random"
-	"fmt"
 
 	"github.com/AlecAivazis/survey/v2"
 )
@@ -13,7 +12,7 @@ import (
 var dataTypes []string = []string{"jobs", "person", "phone_call"}
 
 type DataMap struct {
-	Person    []persongenerator.PersonInfo
+	Person    []random.PersonInfo
 	PhoneCall []phonecallgenerator.PhoneCall
 	Job       []random.JobInfo
 }
@@ -36,20 +35,25 @@ func GenerateData() {
 	var dataMap DataMap
 	for i := 0; i < len(dataTypesSelections); i++ {
 		dataType := dataTypesSelections[i]
-		fmt.Printf("%+v\n", dataType)
 		switch dataType {
 		case "jobs":
 			dataMap.Job = jobgenerator.GenerateJobData(outputType)
 		case "person":
-			// if dataMap.Job != nil {
-			// 	employPeople := ""
-			// 	prompt := &survey.Select{
-			// 			Message: "Choose a color:",
-			// 			Options: []string{"red", "blue", "green"},
-			// 	}
-			// 	survey.AskOne(prompt, &employPeople)
-			// }
-			people := persongenerator.GeneratePersonData(outputType)
+			var people []random.PersonInfo
+			if dataMap.Job != nil {
+				employPeople := false
+				prompt := &survey.Confirm{
+					Message: "Should the persons be employed using the person topic?",
+				}
+				survey.AskOne(prompt, &employPeople)
+				if employPeople {
+					people = persongenerator.GeneratePersonWithJobData(outputType, dataMap.Job)
+				} else {
+					people = persongenerator.GeneratePersonData(outputType)
+				}
+			} else {
+				people = persongenerator.GeneratePersonData(outputType)
+			}
 			dataMap.Person = people
 		case "phone_call":
 			var phoneCalls []phonecallgenerator.PhoneCall

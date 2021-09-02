@@ -1,0 +1,1034 @@
+{
+  "version": 1.0,
+  "tags": [],
+  "occurrenceTypes": [
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "Person Lexicon Entity",
+      "manualActions": [
+        ""
+      ],
+      "id": "5503f972-fc7e-11eb-88d1-c67d0f1a340b",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "person_lexicon_entity",
+      "fields": {
+        "state": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "state",
+          "name": "state",
+          "dataType": "string"
+        },
+        "postalcode": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "postalcode",
+          "name": "postalcode",
+          "dataType": "string"
+        },
+        "phone_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "phone_number",
+          "name": "phone_number",
+          "dataType": "string"
+        },
+        "name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "name",
+          "name": "name",
+          "dataType": "string"
+        },
+        "lon": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lon",
+          "name": "lon",
+          "dataType": "float"
+        },
+        "loc": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "loc",
+          "name": "loc",
+          "dataType": "geo"
+        },
+        "lat": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lat",
+          "name": "lat",
+          "dataType": "float"
+        },
+        "last_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "last_name",
+          "name": "last_name",
+          "dataType": "string"
+        },
+        "job_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "job_id",
+          "name": "job_id",
+          "dataType": "uuid"
+        },
+        "id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "id",
+          "name": "id",
+          "dataType": "uuid"
+        },
+        "gender": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "gender",
+          "name": "gender",
+          "dataType": "string"
+        },
+        "first_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "first_name",
+          "name": "first_name",
+          "dataType": "string"
+        },
+        "email": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "email",
+          "name": "email",
+          "dataType": "string"
+        },
+        "country": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "country",
+          "name": "country",
+          "dataType": "string"
+        },
+        "city": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "city",
+          "name": "city",
+          "dataType": "string"
+        },
+        "$matches": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "$matches",
+          "name": "$matches",
+          "dataType": "array"
+        }
+      },
+      "enumerable": false,
+      "dsType": "entity",
+      "description": "This is a person entity",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "job",
+      "manualActions": [
+        ""
+      ],
+      "id": "63e81220-06bf-11ec-8189-beb41c0e6d6d",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "job",
+      "fields": {
+        "zip": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|zip",
+          "name": "zip",
+          "dataType": "string"
+        },
+        "street": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|street",
+          "name": "street",
+          "dataType": "string"
+        },
+        "state": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|state",
+          "name": "state",
+          "dataType": "string"
+        },
+        "location": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|location",
+          "name": "location",
+          "dataType": "geo"
+        },
+        "level": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "level",
+          "name": "level",
+          "dataType": "string"
+        },
+        "id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "id",
+          "name": "id",
+          "dataType": "uuid"
+        },
+        "descriptor": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "descriptor",
+          "name": "descriptor",
+          "dataType": "string"
+        },
+        "country": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|country",
+          "name": "country",
+          "dataType": "string"
+        },
+        "company": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "company",
+          "name": "company",
+          "dataType": "string"
+        },
+        "city": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|city",
+          "name": "city",
+          "dataType": "string"
+        },
+        "address": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "address|address",
+          "name": "address",
+          "dataType": "string"
+        }
+      },
+      "enumerable": false,
+      "description": "This is a job input topic",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "Phone Call Random Confidence",
+      "manualActions": [
+        ""
+      ],
+      "id": "73b60554-fafd-11eb-8bc9-e6abe509484a",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "phone_call_random_confidence",
+      "fields": {
+        "to_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_number",
+          "name": "to_number",
+          "dataType": "string"
+        },
+        "to_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_name",
+          "name": "to_name",
+          "dataType": "string"
+        },
+        "to_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_id",
+          "name": "to_id",
+          "dataType": "uuid"
+        },
+        "occured_at": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "occured_at",
+          "name": "occured_at",
+          "dataType": "date-time"
+        },
+        "from_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_number",
+          "name": "from_number",
+          "dataType": "string"
+        },
+        "from_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_name",
+          "name": "from_name",
+          "dataType": "string"
+        },
+        "from_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_id",
+          "name": "from_id",
+          "dataType": "uuid"
+        },
+        "duration": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "duration",
+          "name": "duration",
+          "dataType": "integer"
+        },
+        "call_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "call_id",
+          "name": "call_id",
+          "dataType": "uuid"
+        }
+      },
+      "enumerable": false,
+      "dsType": "linkage",
+      "description": "The phone call output",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "person_event",
+      "manualActions": [
+        ""
+      ],
+      "id": "a0b1e0b0-f62e-11eb-bb4a-d63d577c3cda",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "person",
+      "fields": {
+        "state": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "state",
+          "name": "state",
+          "dataType": "string"
+        },
+        "postalcode": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "postalcode",
+          "name": "postalcode",
+          "dataType": "string"
+        },
+        "phone_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "phone_number",
+          "name": "phone_number",
+          "dataType": "string"
+        },
+        "name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "name",
+          "name": "name",
+          "dataType": "string"
+        },
+        "lon": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lon",
+          "name": "lon",
+          "dataType": "float"
+        },
+        "loc": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "loc",
+          "name": "loc",
+          "dataType": "geo"
+        },
+        "lat": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lat",
+          "name": "lat",
+          "dataType": "float"
+        },
+        "last_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "last_name",
+          "name": "last_name",
+          "dataType": "string"
+        },
+        "job_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "job_id",
+          "name": "job_id",
+          "dataType": "uuid"
+        },
+        "id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "id",
+          "name": "id",
+          "dataType": "uuid"
+        },
+        "gender": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "gender",
+          "name": "gender",
+          "dataType": "string"
+        },
+        "first_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "first_name",
+          "name": "first_name",
+          "dataType": "string"
+        },
+        "email": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "email",
+          "name": "email",
+          "dataType": "string"
+        },
+        "country": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "country",
+          "name": "country",
+          "dataType": "string"
+        },
+        "city": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "city",
+          "name": "city",
+          "dataType": "string"
+        }
+      },
+      "enumerable": false,
+      "description": "Description of \"person\"",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "phone_call_event",
+      "manualActions": [
+        ""
+      ],
+      "id": "a9a11290-f62e-11eb-8d1d-d63d577c3cda",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "phone_call",
+      "fields": {
+        "to_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_number",
+          "name": "to_number",
+          "dataType": "string"
+        },
+        "occurred": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "occurred",
+          "name": "occurred",
+          "dataType": "date-time"
+        },
+        "id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "id",
+          "name": "id",
+          "dataType": "uuid"
+        },
+        "from_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_number",
+          "name": "from_number",
+          "dataType": "string"
+        },
+        "duration": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "duration",
+          "name": "duration",
+          "dataType": "integer"
+        }
+      },
+      "enumerable": false,
+      "description": "Description of \"phone_call\"",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "Co-worker",
+      "manualActions": [
+        ""
+      ],
+      "id": "afcc3280-0759-11ec-8072-72c0edf4c54e",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "co_worker",
+      "fields": {
+        "job_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "job_name",
+          "name": "job_name",
+          "dataType": "string"
+        },
+        "job_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "job_id",
+          "name": "job_id",
+          "dataType": "uuid"
+        },
+        "b_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "b_name",
+          "name": "b_name",
+          "dataType": "string"
+        },
+        "b_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "b_id",
+          "name": "b_id",
+          "dataType": "uuid"
+        },
+        "a_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "a_name",
+          "name": "a_name",
+          "dataType": "string"
+        },
+        "a_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "a_id",
+          "name": "a_id",
+          "dataType": "uuid"
+        }
+      },
+      "enumerable": false,
+      "dsType": "linkage",
+      "description": "A linkage between to person entities with the same job id.",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "Phone Call Made",
+      "manualActions": [
+        ""
+      ],
+      "id": "bfafd55a-faeb-11eb-aae6-e6abe509484a",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "phone_call_made",
+      "fields": {
+        "to_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_number",
+          "name": "to_number",
+          "dataType": "string"
+        },
+        "to_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_name",
+          "name": "to_name",
+          "dataType": "string"
+        },
+        "to_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "to_id",
+          "name": "to_id",
+          "dataType": "uuid"
+        },
+        "occurred_at": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "occurred_at",
+          "name": "occurred_at",
+          "dataType": "date-time"
+        },
+        "from_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_number",
+          "name": "from_number",
+          "dataType": "string"
+        },
+        "from_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_name",
+          "name": "from_name",
+          "dataType": "string"
+        },
+        "from_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "from_id",
+          "name": "from_id",
+          "dataType": "uuid"
+        },
+        "duration": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "duration",
+          "name": "duration",
+          "dataType": "integer"
+        },
+        "call_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "call_id",
+          "name": "call_id",
+          "dataType": "uuid"
+        }
+      },
+      "enumerable": false,
+      "dsType": "linkage",
+      "description": "The phone call output",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "Person Entity",
+      "manualActions": [
+        ""
+      ],
+      "id": "e7c5f4c6-faea-11eb-8962-e6abe509484a",
+      "form": "JSON",
+      "filterType": "none",
+      "filterNode": null,
+      "filterField": null,
+      "filter": "person_entity",
+      "fields": {
+        "state": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "state",
+          "name": "state",
+          "dataType": "string"
+        },
+        "postalcode": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "postalcode",
+          "name": "postalcode",
+          "dataType": "string"
+        },
+        "phone_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "phone_number",
+          "name": "phone_number",
+          "dataType": "string"
+        },
+        "name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "name",
+          "name": "name",
+          "dataType": "string"
+        },
+        "lon": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lon",
+          "name": "lon",
+          "dataType": "float"
+        },
+        "loc": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "loc",
+          "name": "loc",
+          "dataType": "geo"
+        },
+        "lat": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lat",
+          "name": "lat",
+          "dataType": "float"
+        },
+        "last_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "last_name",
+          "name": "last_name",
+          "dataType": "string"
+        },
+        "job_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "job_id",
+          "name": "job_id",
+          "dataType": "uuid"
+        },
+        "id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "id",
+          "name": "id",
+          "dataType": "uuid"
+        },
+        "gender": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "gender",
+          "name": "gender",
+          "dataType": "string"
+        },
+        "first_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "first_name",
+          "name": "first_name",
+          "dataType": "string"
+        },
+        "email": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "email",
+          "name": "email",
+          "dataType": "string"
+        },
+        "country": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "country",
+          "name": "country",
+          "dataType": "string"
+        },
+        "city": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "city",
+          "name": "city",
+          "dataType": "string"
+        },
+        "$matches": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "$matches",
+          "name": "$matches",
+          "dataType": "array"
+        }
+      },
+      "enumerable": false,
+      "dsType": "entity",
+      "description": "This is a person entity",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    },
+    {
+      "version": 1,
+      "tags": [],
+      "streamType": "crud",
+      "partitions": 1,
+      "name": "person_lexicon",
+      "manualActions": [
+        ""
+      ],
+      "id": "fbe94fae-fc7d-11eb-acd7-c67d0f1a340b",
+      "form": "JSON",
+      "filterType": "lex",
+      "filterNode": "781534ca-6652-4b2a-9539-3ed75a8f6826",
+      "filterField": "first_name",
+      "filter": "person",
+      "fields": {
+        "state": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "state",
+          "name": "state",
+          "dataType": "string"
+        },
+        "postalcode": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "postalcode",
+          "name": "postalcode",
+          "dataType": "string"
+        },
+        "phone_number": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "phone_number",
+          "name": "phone_number",
+          "dataType": "string"
+        },
+        "name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "name",
+          "name": "name",
+          "dataType": "string"
+        },
+        "lon": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lon",
+          "name": "lon",
+          "dataType": "float"
+        },
+        "loc": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "loc",
+          "name": "loc",
+          "dataType": "geo"
+        },
+        "lat": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "lat",
+          "name": "lat",
+          "dataType": "float"
+        },
+        "last_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "last_name",
+          "name": "last_name",
+          "dataType": "string"
+        },
+        "job_id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "job_id",
+          "name": "job_id",
+          "dataType": "uuid"
+        },
+        "id": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "id",
+          "name": "id",
+          "dataType": "uuid"
+        },
+        "gender": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "gender",
+          "name": "gender",
+          "dataType": "string"
+        },
+        "first_name": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "first_name",
+          "name": "first_name",
+          "dataType": "string"
+        },
+        "email": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "email",
+          "name": "email",
+          "dataType": "string"
+        },
+        "country": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "country",
+          "name": "country",
+          "dataType": "string"
+        },
+        "city": {
+          "search": "",
+          "propagate": null,
+          "pii": false,
+          "path": "city",
+          "name": "city",
+          "dataType": "string"
+        }
+      },
+      "enumerable": false,
+      "description": "Description of \"person\"",
+      "dataSourceName": "kafka",
+      "dataSource": "kafka",
+      "baseProbability": 0.0
+    }
+  ]
+}

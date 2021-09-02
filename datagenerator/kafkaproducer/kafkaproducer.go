@@ -12,7 +12,6 @@ var kafkaConfig config.KafkaConfig
 
 func init() {
 	kafkaConfig = config.GetKafkaConfig()
-	fmt.Printf("%+v", kafkaConfig)
 }
 
 func InitializeAsyncProducer() *kafka.Producer {

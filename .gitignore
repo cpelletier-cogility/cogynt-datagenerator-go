@@ -17,3 +17,5 @@
 main
 
 config.yaml
+
+json_output/*

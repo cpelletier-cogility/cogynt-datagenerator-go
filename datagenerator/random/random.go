@@ -30,7 +30,7 @@ type AddressInfo struct {
 	Location Feature `json:"location"`
 }
 
-func GenerateAddress() AddressInfo {
+func GenerateRandomAddress() AddressInfo {
 	addressInfo := gofakeit.Address()
 	return AddressInfo{
 		Address: addressInfo.Address,
@@ -61,7 +61,7 @@ type JobInfo struct {
 
 func GenerateRandomJob() JobInfo {
 	jobInfo := gofakeit.Job()
-	address := GenerateAddress()
+	address := GenerateRandomAddress()
 	return JobInfo{
 		Id:         gofakeit.UUID(),
 		Descriptor: jobInfo.Descriptor,
@@ -69,5 +69,49 @@ func GenerateRandomJob() JobInfo {
 		Title:      jobInfo.Title,
 		Company:    jobInfo.Company,
 		Address:    address,
+	}
+}
+
+type PersonInfo struct {
+	Name        string  `json:"name"`
+	FirstName   string  `json:"first_name"`
+	LastName    string  `json:"last_name"`
+	Gender      string  `json:"gender"`
+	Email       string  `json:"email"`
+	Country     string  `json:"country"`
+	City        string  `json:"city"`
+	PostalCode  string  `json:"postalcode"`
+	State       string  `json:"state"`
+	Longitude   float64 `json:"lon"`
+	Latitude    float64 `json:"lat"`
+	Location    Feature `json:"loc"`
+	Id          string  `json:"id"`
+	PhoneNumber string  `json:"phone_number"`
+	JobId       string  `json:"job_id"`
+}
+
+func GenerateRandomPerson() PersonInfo {
+	firstName := gofakeit.FirstName()
+	lastName := gofakeit.LastName()
+	address := GenerateRandomAddress()
+	location := address.Location
+	latitude := location.Geometry.Coordinates[1]
+	longitude := location.Geometry.Coordinates[0]
+
+	return PersonInfo{
+		Name:        firstName + " " + lastName,
+		FirstName:   firstName,
+		LastName:    lastName,
+		Gender:      gofakeit.Gender(),
+		Email:       gofakeit.Email(),
+		Country:     address.Country,
+		City:        address.City,
+		PostalCode:  address.Zip,
+		State:       address.State,
+		Longitude:   longitude,
+		Latitude:    latitude,
+		Location:    location,
+		Id:          gofakeit.UUID(),
+		PhoneNumber: gofakeit.PhoneFormatted(),
 	}
 }

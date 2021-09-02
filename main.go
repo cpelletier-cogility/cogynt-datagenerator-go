@@ -1,11 +1,9 @@
 package main
 
 import (
-	"bufio"
 	"cogynt-datagenerator-go/datagenerator"
-	"fmt"
-	"os"
-	"strings"
+
+	"github.com/AlecAivazis/survey/v2"
 )
 
 func inputInSlice(a string, list []string) bool {
@@ -18,16 +16,14 @@ func inputInSlice(a string, list []string) bool {
 }
 
 func main() {
-	fmt.Println("This is the start of the Data Generator Application.")
-
 	for {
-		reader := bufio.NewReader(os.Stdin)
-
 		datagenerator.GenerateData()
-		fmt.Println("Do you want to generate another data type? [Y/n]")
-		userInput, _ := reader.ReadString('\n')
-		userInput = strings.TrimSuffix(userInput, "\n")
-		if userInput == "Y" {
+		createAnother := false
+		prompt := &survey.Confirm{
+			Message: "Do you want to generate another data type?",
+		}
+		survey.AskOne(prompt, &createAnother)
+		if createAnother {
 			continue
 		} else {
 			break

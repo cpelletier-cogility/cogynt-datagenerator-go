@@ -1,7 +1,6 @@
 package config
 
 import (
-	"fmt"
 	"io/ioutil"
 	"log"
 
@@ -32,7 +31,6 @@ func init() {
 	if err != nil {
 		log.Fatalf("Unable to parse config: %v", err)
 	}
-	fmt.Printf("%+v", config)
 }
 
 func GetConfig() Config {
