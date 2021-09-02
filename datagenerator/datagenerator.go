@@ -13,7 +13,7 @@ var dataTypes []string = []string{"jobs", "person", "phone_call"}
 
 type DataMap struct {
 	Person    []random.PersonInfo
-	PhoneCall []phonecallgenerator.PhoneCall
+	PhoneCall []random.PhoneCallInfo
 	Job       []random.JobInfo
 }
 
@@ -56,7 +56,7 @@ func GenerateData() {
 			}
 			dataMap.Person = people
 		case "phone_call":
-			var phoneCalls []phonecallgenerator.PhoneCall
+			var phoneCalls []random.PhoneCallInfo
 			if dataMap.Person != nil {
 				phoneCalls = phonecallgenerator.GeneratePhoneCallDataWithPersons(outputType, dataMap.Person)
 			} else {

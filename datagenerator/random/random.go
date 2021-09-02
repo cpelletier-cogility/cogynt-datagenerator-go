@@ -1,6 +1,8 @@
 package random
 
 import (
+	"time"
+
 	"github.com/brianvoe/gofakeit/v6"
 )
 
@@ -113,5 +115,26 @@ func GenerateRandomPerson() PersonInfo {
 		Location:    location,
 		Id:          gofakeit.UUID(),
 		PhoneNumber: gofakeit.PhoneFormatted(),
+	}
+}
+
+type PhoneCallInfo struct {
+	Id         string    `json:"id"`
+	FromNumber string    `json:"from_number"`
+	ToNumber   string    `json:"to_number"`
+	Occurred   time.Time `json:"occurred"`
+	Duration   int       `json:"duration"`
+}
+
+func GenerateRandomPhoneCall() PhoneCallInfo {
+	now := time.Now()
+	start := now.AddDate(-100, 0, 0)
+	occurred := gofakeit.DateRange(start, now)
+	return PhoneCallInfo{
+		Id:         gofakeit.UUID(),
+		FromNumber: gofakeit.PhoneFormatted(),
+		ToNumber:   gofakeit.PhoneFormatted(),
+		Occurred:   occurred,
+		Duration:   gofakeit.Number(0, 300000),
 	}
 }
