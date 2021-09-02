@@ -60,7 +60,9 @@ func GeneratePhoneCallDataWithPersons(outputType string, people []random.PersonI
 	for i = 0; i < phoneCallCount; i++ {
 		var to string
 		phoneCall := random.GenerateRandomPhoneCall()
-		if !outside && faker.Number(1, 2) != 1 {
+		if !outside {
+			phoneCall.ToNumber = PopPerson(&shuffled_people).PhoneNumber
+		} else if faker.Bool() {
 			phoneCall.ToNumber = PopPerson(&shuffled_people).PhoneNumber
 		}
 		phoneCall.FromNumber = from
