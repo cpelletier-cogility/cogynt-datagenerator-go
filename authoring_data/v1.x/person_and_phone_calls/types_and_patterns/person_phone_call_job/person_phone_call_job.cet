@@ -6,7 +6,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 10,
       "name": "Person Lexicon Entity",
       "manualActions": [
         ""
@@ -158,8 +158,8 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
-      "name": "job",
+      "partitions": 3,
+      "name": "job_event",
       "manualActions": [
         ""
       ],
@@ -269,7 +269,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 10,
       "name": "Phone Call Random Confidence",
       "manualActions": [
         ""
@@ -365,7 +365,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 3,
       "name": "person_event",
       "manualActions": [
         ""
@@ -508,7 +508,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 3,
       "name": "phone_call_event",
       "manualActions": [
         ""
@@ -571,7 +571,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 10,
       "name": "Co-worker",
       "manualActions": [
         ""
@@ -643,7 +643,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 10,
       "name": "Phone Call Made",
       "manualActions": [
         ""
@@ -739,7 +739,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 10,
       "name": "Person Entity",
       "manualActions": [
         ""
@@ -891,7 +891,7 @@
       "version": 1,
       "tags": [],
       "streamType": "crud",
-      "partitions": 1,
+      "partitions": 3,
       "name": "person_lexicon",
       "manualActions": [
         ""
